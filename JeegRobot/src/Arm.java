@@ -6,7 +6,5 @@ abstract public class Arm {
         this.side = side;
     }
 
-    public void attacca(){
-        System.out.println("Ti attacco con il braccio " + this.side);
-    }
+    public abstract void attacca();
 }
